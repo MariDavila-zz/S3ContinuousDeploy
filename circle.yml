@@ -5,5 +5,5 @@ deployment:
   prod:
     branch: master
     commands:
-        - aws s3 sync /home/ubuntu/S3ContinuousDeploy s3://bakertst-s3continuous-deploy --delete
+        - aws s3 sync /home/ubuntu/S3ContinuousDeploy s3://bakertst-s3continuous-deploy.s3.amazonaws.com --delete
 
